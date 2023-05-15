@@ -48,7 +48,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px 40px;
+    padding: 20px 60px;
     transition: all 0.3s ease-out;
 }
 nav.fixed{
@@ -58,7 +58,7 @@ nav.fixed{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 40px;
+    padding: 10px 60px;
     background: #fefefe;
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
 }
@@ -165,8 +165,12 @@ nav.fixed{
 /* For Click to show */
 .notification_box{
     position: fixed;
+    float: right;
+    right: -100%;
+    top: 10%;
     width: 390px;
-    max-height: 80vh;
+    min-height: 80vh;
+    max-height: 85vh;
     background: #fafafa;
     box-shadow: 0 1px 20px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
@@ -175,6 +179,10 @@ nav.fixed{
     align-items: center;
     flex-direction: column;
     gap: 1.2rem;
+    transition: all 0.4s ease-out;
+}
+.notification_box.showNotification{
+    right: 1%;
 }
 .notification_title{
     font-size: 1.3rem;
@@ -183,10 +191,24 @@ nav.fixed{
     padding: 10px 20px;
     text-align: center;
 }
+.all_notification_box{
+    width: 100%;
+    max-height: 65vh;
+    overflow-y: scroll;
+}
+.all_notification_box ::-webkit-scrollbar{
+    display: none !important;
+}
 .notification_card{
     display: flex;
     align-items: flex-start;
     column-gap: 0.7rem;
+    padding: 10px;
+    border-radius: 4px;
+    background: transparent;
+    margin-bottom: 1.0rem;
+    cursor: pointer;
+    transition: 0.2s ease-out;
 }
 .notification_card img{
     width: 30px;
@@ -196,6 +218,9 @@ nav.fixed{
 .notify_name{
     font-size: 0.92rem;
     color: #1d1d1d;
+}
+.notification_card:hover{
+    background: #dedede;
 }
 
 
