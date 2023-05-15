@@ -12,6 +12,96 @@ li{
     list-style-type: none;
 }
 
+/* Main Section */
+.main_section{
+    width: 100%;
+    min-height: 100vh;
+    background: #ffffff;
+}
+
+/* Navbar Section */
+nav{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 40px;
+}
+
+/* Left Section */
+.nav_left_section{
+    display: flex;
+    align-items: center;
+    gap: 1.3rem;
+}
+.logo_section a{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #1d1d1d;
+}
+.nav_items a{
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #333333;
+}
+.search_section{
+    width: 380px;
+    height: 38px;
+    background: #ebebeb;
+    border: 1px solid #707070;
+    border-radius: 4px;
+    overflow: hidden;
+    padding: 0 10px;
+}
+.search_input{
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border: none;
+    background: transparent;
+}
+
+/* Right Section */
+.nav_right_section{
+    display: flex;
+    align-items: center;
+    gap: 1.3rem;
+}
+.notification_section{
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    background: #fafafa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.5s ease-out;
+}
+.notification_section i{
+    font-size: 1.3rem;
+    color: #333333;
+}
+.notification_section:hover{
+    background: #dedede;
+}
+.profile_section{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    overflow: hidden;
+}
+.profile_section img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
 
 
 
