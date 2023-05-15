@@ -1,8 +1,11 @@
 /*  */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
 }
 
 a{
@@ -51,9 +54,12 @@ nav.fixed{
     font-weight: 600;
     color: #1d1d1d;
 }
-.nav_items a{
+.nav_items{
     display: flex;
     align-items: center;
+    column-gap: 0.8rem;
+}
+.nav_items a{
     font-size: 1.3rem;
     font-weight: 500;
     color: #333333;
@@ -90,7 +96,7 @@ nav.fixed{
     align-items: center;
     gap: 1.3rem;
 }
-.notification_section{
+.nav_icon{
     width: 38px;
     height: 38px;
     border-radius: 50%;
@@ -101,11 +107,11 @@ nav.fixed{
     cursor: pointer;
     transition: all 0.5s ease-out;
 }
-.notification_section i{
+.nav_icon i{
     font-size: 1.3rem;
     color: #333333;
 }
-.notification_section:hover{
+.nav_icon:hover{
     background: #dedede;
 }
 .profile_section{
