@@ -233,14 +233,24 @@ nav.fixed{
     top: 10%;
     width: 250px;
     max-height: 45vh;
-    background: #fafafa;
+    background: #ffffff;
     box-shadow: 0 1px 20px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
     padding: 20px;
     display: flex;
     align-items: center;
     flex-direction: column;
+    /* border: 1px solid #dfdfdf; */
+    /* border: 1px solid #a8a8a8; */
+    border: 1px solid #dfdfdf;
     transition: all 0.2s ease-out;
+}
+.box_indicator{
+    position: absolute;
+    top: -7%;
+    right: 21%;
+    font-size: 2.5rem;
+    color: #ffffff;
 }
 .user_name{
     font-size: 1.2rem;

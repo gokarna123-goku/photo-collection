@@ -38,7 +38,7 @@
                     <i class="fa-solid fa-bell" id="notify_icon"></i>
                 </div>
                 <!-- If user is logged in then they can see the profile detail -->
-                <div class="profile_section">
+                <div class="profile_section" id="profile_toggle">
                     <img src="https://cdn.pixabay.com/photo/2022/07/24/23/46/artificial-intelligence-7342613_960_720.jpg"
                         alt="User Profile Picture" class="profile_pic">
                 </div>
@@ -174,12 +174,19 @@
         </div>
         <!-- For Profile Section -->
         <div class="profile_box" id="profile_box">
+            <i class="fa-solid fa-caret-up box_indicator"></i>
+            <!-- <i class="fa-solid fa-chevron-up box_indicator"></i> -->
             <div class="user_name">Gokarna Adhikari</div>
             <div class="divider"></div>
             <div class="profile_action_box">
                 <div class="action_card">
                     <div class="action_icon"><i class="fa-solid fa-upload"></i></div>
                     <div class="action_name">Upload Image</div>
+                </div>
+                <div class="divider"></div>
+                <div class="action_card">
+                    <div class="action_icon"><i class="fa-solid fa-user"></i></div>
+                    <div class="action_name">My Account</div>
                 </div>
                 <div class="action_card">
                     <div class="action_icon"><i class="fa-solid fa-gear"></i></div>

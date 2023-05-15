@@ -29,4 +29,18 @@ notifyButton.addEventListener("click", () => {
   }
 });
 
+// Notification Toggle
+const profileButton = document.getElementById("profile_toggle");
+const profileBox = document.getElementById("profile_box");
+
+notifyButton.addEventListener("click", () => {
+  if (notifyBox.style.right === "-100%") {
+    notifyBox.style.right = "1%";
+    notifyButton.style.backgroundColor = "#dedede";
+  } else {
+    notifyBox.style.right = "-100%";
+    notifyButton.style.backgroundColor = "#fafafa";
+  }
+});
+
 //
