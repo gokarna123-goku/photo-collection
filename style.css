@@ -29,7 +29,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 40px;
+    padding: 20px 40px;
 }
 nav.fixed{
     position: fixed;
@@ -38,7 +38,7 @@ nav.fixed{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 40px;
+    padding: 15px 40px;
     background: #fefefe;
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
 }
@@ -51,18 +51,28 @@ nav.fixed{
 }
 .logo_section a{
     font-size: 1.5rem;
-    font-weight: 600;
+    font-weight: 700;
     color: #1d1d1d;
 }
 .nav_items{
     display: flex;
     align-items: center;
     column-gap: 0.8rem;
+    transition: 0.5s ease-out;
 }
 .nav_items a{
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     font-weight: 500;
     color: #333333;
+    transition: 0.5s ease-out;
+}
+.nav_items a:hover{
+    color: #f14c05;
+}
+.nav_items .active{
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #f14c05;
 }
 .search_section{
     width: 380px;
@@ -110,9 +120,13 @@ nav.fixed{
 .nav_icon i{
     font-size: 1.3rem;
     color: #333333;
+    transition: all 0.5s ease-out;
 }
 .nav_icon:hover{
     background: #dedede;
+}
+.nav_icon:hover i{
+    color: #f14c05;
 }
 .profile_section{
     width: 40px;
