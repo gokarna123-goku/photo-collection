@@ -34,8 +34,8 @@
                 <div class="nav_icon favourite_section">
                     <i class="fa-solid fa-heart"></i>
                 </div>
-                <div class="nav_icon notification_section">
-                    <i class="fa-solid fa-bell"></i>
+                <div class="nav_icon notification_section" id="notify_toggle">
+                    <i class="fa-solid fa-bell" id="notify_icon"></i>
                 </div>
                 <!-- If user is logged in then they can see the profile detail -->
                 <div class="profile_section">
@@ -48,7 +48,7 @@
         </nav>
         <!-- When clickable action perform on notification and user profile -->
         <!-- For Notification Section -->
-        <div class="notification_box">
+        <div class="notification_box" id="notification_box">
             <div class="notification_title">Latest Updates</div>
             <div class="all_notification_box">
                 <div class="notification_card">
@@ -173,6 +173,15 @@
             </div>
         </div>
         <!-- For Profile Section -->
+        <div class="profile_box" id="profile_box">
+            <div class="user_name">Gokarna Adhikari</div>
+            <div class="profile_action_box">
+                <div class="action_card">
+                    <div class="action_icon"><i class="fa-solid fa-gear"></i></div>
+                    <div class="action_name">Settings</div>
+                </div>
+            </div>
+        </div>
         <!-- ============================================================== -->
         <!-- Home, search, login/registe, upload, profile(settings, notification, logout) -->
         <!-- Hero Section -->

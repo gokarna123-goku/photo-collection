@@ -148,6 +148,10 @@ nav.fixed{
 .nav_icon:hover i{
     color: #f14c05;
 }
+.notification_active{
+    background: #dedede;
+    color: #f14c05;
+}
 .profile_section{
     width: 40px;
     height: 40px;
@@ -179,11 +183,9 @@ nav.fixed{
     align-items: center;
     flex-direction: column;
     gap: 1.2rem;
-    transition: all 0.4s ease-out;
+    transition: all 0.2s ease-out;
 }
-.notification_box.showNotification{
-    right: 1%;
-}
+
 .notification_title{
     font-size: 1.3rem;
     font-weight: 600;
