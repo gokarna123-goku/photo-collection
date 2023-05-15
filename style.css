@@ -162,6 +162,35 @@ nav.fixed{
     object-position: center;
 }
 
+/* For Click to show */
+.notification_box{
+    position: fixed;
+    float: right;
+    width: 390px;
+    max-height: 80vh;
+    background: #fafafa;
+    box-shadow: 0 1px 20px rgba(0, 0, 0, 0.4);
+    border-radius: 4px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 1.2rem;
+    overflow-y: scroll;
+}
+.notification_title{
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #1d1d1d;
+    padding: 10px 20px;
+    text-align: center;
+}
+.notification_card{
+    display: flex;
+    align-items: center;
+    column-gap: 0.7rem;
+}
+
 
 
 
