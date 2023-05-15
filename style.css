@@ -166,7 +166,7 @@ nav.fixed{
     object-position: center;
 }
 
-/* For Click to show */
+/* For Click to Show Notification */
 .notification_box{
     position: fixed;
     float: right;
@@ -224,6 +224,70 @@ nav.fixed{
 .notification_card:hover{
     background: #dedede;
 }
+
+/* For Click to Show Profile Section */
+.profile_box{
+    position: fixed;
+    float: right;
+    right: 1%;
+    top: 10%;
+    width: 250px;
+    max-height: 45vh;
+    background: #fafafa;
+    box-shadow: 0 1px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    transition: all 0.2s ease-out;
+}
+.user_name{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #1d1d1d;
+    letter-spacing: 0.07rem;
+}
+.divider{
+    width: 100%;
+    height: 1px;
+    background: #dedede;
+    margin: 0.6rem 0;
+}
+.profile_action_box{
+    width: 100%;
+    height: auto;
+}
+.action_card{
+    display: flex;
+    align-items: center;
+    column-gap: 0.9rem;
+    background: transparent;
+    transition: 0.3s ease-out;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 4px;
+}
+.action_card:hover{
+    background: #dedede;
+}
+.action_card .action_icon{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.action_icon i{
+    font-size: 1.2rem;
+    color: #1d1d1d;
+}
+.action_name{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #1d1d1d;
+}
+
 
 
 
