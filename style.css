@@ -173,19 +173,26 @@ nav.fixed{
     right: -100%;
     top: 10%;
     width: 390px;
-    min-height: 80vh;
+    min-height: 78vh;
     max-height: 85vh;
-    background: #fafafa;
+    background: #ffffff;
     box-shadow: 0 1px 20px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
-    padding: 10px 10px 20px 10px;
+    padding: 20px;
     display: flex;
     align-items: center;
     flex-direction: column;
     gap: 1.2rem;
+    border: 1px solid #dfdfdf;
     transition: all 0.2s ease-out;
 }
-
+.notify_indicator{
+    position: absolute;
+    top: -5%;
+    right: 27%;
+    font-size: 3.7rem;
+    color: #ffffff;
+}
 .notification_title{
     font-size: 1.3rem;
     font-weight: 600;
