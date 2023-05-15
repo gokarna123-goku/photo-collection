@@ -165,18 +165,16 @@ nav.fixed{
 /* For Click to show */
 .notification_box{
     position: fixed;
-    float: right;
     width: 390px;
     max-height: 80vh;
     background: #fafafa;
-    box-shadow: 0 1px 20px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 1px 20px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
-    padding: 10px;
+    padding: 10px 10px 20px 10px;
     display: flex;
     align-items: center;
     flex-direction: column;
     gap: 1.2rem;
-    overflow-y: scroll;
 }
 .notification_title{
     font-size: 1.3rem;
@@ -187,8 +185,17 @@ nav.fixed{
 }
 .notification_card{
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     column-gap: 0.7rem;
+}
+.notification_card img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.notify_name{
+    font-size: 0.92rem;
+    color: #1d1d1d;
 }
 
 
