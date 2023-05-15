@@ -229,7 +229,7 @@ nav.fixed{
 .profile_box{
     position: fixed;
     float: right;
-    right: 1%;
+    right: -100%;
     top: 10%;
     width: 250px;
     max-height: 45vh;

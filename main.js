@@ -33,13 +33,11 @@ notifyButton.addEventListener("click", () => {
 const profileButton = document.getElementById("profile_toggle");
 const profileBox = document.getElementById("profile_box");
 
-notifyButton.addEventListener("click", () => {
-  if (notifyBox.style.right === "-100%") {
-    notifyBox.style.right = "1%";
-    notifyButton.style.backgroundColor = "#dedede";
+profileButton.addEventListener("click", () => {
+  if (profileBox.style.right === "-100%") {
+    profileBox.style.right = "1%";
   } else {
-    notifyBox.style.right = "-100%";
-    notifyButton.style.backgroundColor = "#fafafa";
+    profileBox.style.right = "-100%";
   }
 });
 
