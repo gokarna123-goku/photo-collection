@@ -446,6 +446,21 @@ nav.fixed{
     transition: 0.5s ease-out;
 }
 
+/* Banner SEction */
+.banner_section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    gap: 1.7rem;
+}
+.banner_card{
+    width: 500px;
+    height: 50vh;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
 
 
 
