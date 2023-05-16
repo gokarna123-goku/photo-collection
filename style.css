@@ -472,6 +472,23 @@ nav.fixed{
 }
 
 
+/* Popular Categories Section */
+.categories_section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 40px 60px;
+}
+.category_title{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #333333;
+    padding: 20px 0;
+}
+
+
 
 
 
