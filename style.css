@@ -504,7 +504,9 @@ nav.fixed{
     justify-content: start;
     flex-direction: column;
     box-shadow: 0 1px 12px rgba(0, 0, 0, 0.2);
+    border: 1px solid #dedede;
     overflow: hidden;
+    cursor: pointer;
 }
 .category_card .cat_img{
     width: 100%;
