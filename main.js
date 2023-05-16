@@ -10,6 +10,9 @@ window.addEventListener("scroll", function () {
   }
 });
 
+// For Whole Section
+// const mainButton = document.getElementById("main_section");
+
 // Notification Toggle
 const notifyButton = document.getElementById("notify_toggle");
 const notifyIcon = document.getElementById("notify_icon");
@@ -40,5 +43,24 @@ profileButton.addEventListener("click", () => {
     profileBox.style.right = "-100%";
   }
 });
+
+// If the notificaiton and profile section is already opened but these are not automatically
+// close then this happen
+
+// const mainButton = document.getElementById("main_section");
+
+// mainButton.addEventListener("click", () => {
+//   if (notifyBox.style.right === "-100%" || profileBox.style.right === "-100%") {
+//     if (notifyBox) {
+//       notifyBox.style.right = "1%";
+//     } else if (profileBox){
+//       profileBox.style.right = "1%";
+//     } else {
+//       return null;
+//     }
+//   } else {
+//     return;
+//   }
+// });
 
 //
