@@ -327,6 +327,29 @@ nav.fixed{
     color: #ffffff;
 }
 
+/* Today Special Images Section */
+.today_special{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px 60px;
+}
+.title_action_section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+.box_title{
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #333333;
+}
+
 
 
 
