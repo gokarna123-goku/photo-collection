@@ -172,7 +172,7 @@ nav.fixed{
     position: fixed;
     float: right;
     right: -100%;
-    top: 10%;
+    top: 9%;
     width: 390px;
     min-height: 78vh;
     max-height: 85vh;
@@ -239,7 +239,7 @@ nav.fixed{
     position: fixed;
     float: right;
     right: -100%;
-    top: 10%;
+    top: 9%;
     width: 250px;
     max-height: 45vh;
     background: #ffffff;
@@ -257,9 +257,9 @@ nav.fixed{
 }
 .box_indicator{
     position: absolute;
-    top: -7%;
-    right: 21%;
-    font-size: 2.5rem;
+    top: -9%;
+    right: 18%;
+    font-size: 3.7rem;
     color: #ffffff;
 }
 .user_name{
