@@ -186,6 +186,7 @@ nav.fixed{
     gap: 1.2rem;
     border: 1px solid #dfdfdf;
     transition: all 0.2s ease-out;
+    z-index: 1;
 }
 .notify_indicator{
     position: absolute;
@@ -252,6 +253,7 @@ nav.fixed{
     /* border: 1px solid #a8a8a8; */
     border: 1px solid #dfdfdf;
     transition: all 0.2s ease-out;
+    z-index: 1;
 }
 .box_indicator{
     position: absolute;
