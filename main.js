@@ -36,7 +36,8 @@ notifyButton.addEventListener("click", () => {
 const profileButton = document.getElementById("profile_toggle");
 const profileBox = document.getElementById("profile_box");
 
-profileButton.addEventListener("click", () => {
+profileButton.addEventListener("click", (e) => {
+  e.stopPropagation();
   if (profileBox.style.right === "-100%") {
     profileBox.style.right = "1%";
   } else {
