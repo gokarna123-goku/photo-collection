@@ -329,6 +329,44 @@ nav.fixed{
     color: #ffffff;
 }
 
+/* Feature Image Styling */
+.feature_images{
+    width: 100%;
+    height: auto;
+    padding: 40px 60px;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+.left_img_section{
+    width: 40%;
+    height: 50vh;
+    /* border-radius: 4px;
+    overflow: hidden; */
+}
+.left_img_section img{
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+    object-fit: cover;
+    object-position: center;
+}
+.right_img_section{
+    width: 58%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+}
+.right_img_section img{
+    width: 250px;
+    height: 25vh;
+    border-radius: 4px;
+    object-fit: cover;
+    object-position: center;
+}
+
+
 /* Today Special Images Section */
 .today_special{
     width: 100%;
