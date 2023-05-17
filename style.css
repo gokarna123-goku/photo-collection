@@ -521,9 +521,10 @@ nav.fixed{
     right: 0;
     font-size: 1.1rem;
     font-weight: 600;
-    color: #1d1d1d;
+    color: #f0f0f0;
     padding: 7px;
     /* background: #dfdfdf; */
+    background: linear-gradient(to left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.65));
     display: flex;
     align-items: center;
     justify-content: center;
