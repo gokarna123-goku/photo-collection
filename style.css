@@ -510,7 +510,7 @@ nav.fixed{
 }
 .category_card .cat_img{
     width: 100%;
-    height: 76%;
+    height: 100%;
     object-fit: cover;
     object-position: center;
 }
@@ -521,7 +521,7 @@ nav.fixed{
     right: 0;
     font-size: 1.1rem;
     font-weight: 600;
-    color: #dedede;
+    color: #1d1d1d;
     padding: 7px;
     /* background: #dfdfdf; */
     display: flex;
