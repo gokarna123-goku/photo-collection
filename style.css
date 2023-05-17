@@ -339,7 +339,7 @@ nav.fixed{
     gap: 1.5rem;
 }
 .left_img_section{
-    width: 30%;
+    width: 35%;
     height: 65vh;
 }
 .left_img_section img{
@@ -349,8 +349,23 @@ nav.fixed{
     object-fit: cover;
     object-position: center;
 }
+.middle_img_section{
+    width: 37%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.2rem;
+}
+.middle_img_section img{
+    width: 250px;
+    height: 20vh;
+    border-radius: 4px;
+    object-fit: cover;
+    object-position: center;
+}
 .right_img_section{
-    width: 58%;
+    width: 18%;
     height: auto;
     display: flex;
     align-items: center;
@@ -358,8 +373,8 @@ nav.fixed{
     gap: 1.2rem;
 }
 .right_img_section img{
-    width: 250px;
-    height: 25vh;
+    width: 100%;
+    height: 20vh;
     border-radius: 4px;
     object-fit: cover;
     object-position: center;
