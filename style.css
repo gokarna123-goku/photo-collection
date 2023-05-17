@@ -339,10 +339,8 @@ nav.fixed{
     gap: 1.5rem;
 }
 .left_img_section{
-    width: 40%;
-    height: 50vh;
-    /* border-radius: 4px;
-    overflow: hidden; */
+    width: 30%;
+    height: 65vh;
 }
 .left_img_section img{
     width: 100%;
@@ -356,6 +354,7 @@ nav.fixed{
     height: auto;
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
     gap: 1.2rem;
 }
 .right_img_section img{
