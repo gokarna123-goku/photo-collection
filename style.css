@@ -605,6 +605,18 @@ nav.fixed{
     height: auto;
     text-align: start;
 }
+.about_section a{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #f14c05;
+    letter-spacing: 0.1rem;
+    margin-bottom: 1.3rem;
+}
+.about_section p{
+    font-size: 0.99rem;
+    font-weight: 400;
+    color: #a3a3a3;
+}
 .popular_tags{
     width: 40%;
     height: auto;
