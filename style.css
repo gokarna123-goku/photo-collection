@@ -699,17 +699,37 @@ nav.fixed{
     height: auto;
     text-align: start;
 }
-.about_section a{
+.about_section .logo{
     font-size: 1.5rem;
     font-weight: 600;
     color: #f14c05;
     letter-spacing: 0.1rem;
-    margin-bottom: 1.3rem;
+    margin-bottom: 1.5rem;
 }
-.about_section p{
+.about_section .footer_desc{
     font-size: 0.99rem;
     font-weight: 400;
     color: #a3a3a3;
+    margin-bottom: 1.5rem;
+}
+.info_box{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    column-gap: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.info_box i{
+    font-size: 1.0rem;
+    color: #f14c05;
+    margin-bottom: 0;
+}
+.info_box p{
+    font-size: 1.0rem;
+    font-weight: 400;
+    color: #a3a3a3;
+    margin-bottom: 0;
 }
 .popular_tags{
     width: 40%;
