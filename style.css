@@ -742,13 +742,13 @@ figure > img {
     grid-row: 1 / -1;
     grid-column: 1;
 }
-figcaption .right_section{
+.right_section{
     position: absolute;
     top: 0;
     right: 0;
     width: auto;
     height: 100%;
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.75));
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.010), rgba(0, 0, 0, 0.080), rgba(0, 0, 0, 0.20), rgba(0, 0, 0, 0.40), rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.65));
     display: flex;
     align-items: flex-start;
     justify-content: start;
@@ -790,7 +790,7 @@ figcaption {
     right: 0;
     width: 100%;
     height: auto;
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.75));
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.010), rgba(0, 0, 0, 0.080), rgba(0, 0, 0, 0.20), rgba(0, 0, 0, 0.40), rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.65));
     display: flex;
     align-items: center;
     justify-content: space-between;
