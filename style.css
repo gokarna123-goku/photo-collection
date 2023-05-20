@@ -757,21 +757,19 @@ figcaption .right_section{
     padding: 12px 15px;
     transition: 0.5s ease-out;
 }
-/* figure a {
-    color: black;
-    text-decoration: none;
-} */
-.image_action button{
+.right_section button{
     outline: none;
     border: none;
-    background: transparent;
-    font-size: 1.3rem;
-    color: #f14c05;
-    background: transparent;
+    font-size: 1.15rem;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background: rgba(163, 163, 163, 0.82);
+    color: #f1f1f1;
     cursor: pointer;
     transition: transform 0.3s ease-out;
 }
-.image_action button:hover{
+.right_section button:hover{
     transform: scale(1.1);
 }
 figcaption {
@@ -784,6 +782,41 @@ figcaption {
 .container {
     column-count: 4;
     column-gap: 10px;
+}
+.bottom_section{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: auto;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.75));
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px;
+    z-index: 1;
+    transition: 0.5s ease-out;
+}
+.bottom_section .image_title{
+    font-size: 0.89rem;
+    font-weight: 500;
+    color: #ffffff;
+}
+.bottom_section a{
+    font-size: 1.15rem;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background: rgba(163, 163, 163, 0.82);
+    color: #f1f1f1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease-out;
+}
+.bottom_section a:hover{
+    transform: scale(1.1);
 }
 
 
