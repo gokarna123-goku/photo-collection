@@ -722,10 +722,11 @@ nav.fixed{
     width: 100%;
     height: auto;
     padding: 40px 60px;
+    background: rebeccapurple;
 }
 .container img {
     max-width: 100%;
-    display: block;
+    /* display: block; */
 }
 figure {
     position: relative;
@@ -776,7 +777,6 @@ figure > img {
 figcaption {
     grid-row: 2;
     grid-column: 1;
-    /* background-color: rgba(255,255,255,.5); */
     padding: .2em .5em;
     justify-self: start;
 }
