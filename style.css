@@ -718,31 +718,54 @@ nav.fixed{
 }
 
 /* Explore Page Styling */
+.photo_container{
+    max-width: 100%;
+    margin:20px auto;
+    padding: 40px 60px;
+}
+.image_container{
+    columns:4 auto;
+    gap:15px;
+}
+.image_container .explore_img_card{
+    margin-bottom: 10px;
+    border-radius: 4px;
+    width: 100%;
+}
+.image_container img{
+    margin-bottom: 10px;
+    border-radius: 4px;
+    width: 100%;
+}
+
+
+
+
+
+/*  */
+
+
 .photo_section{
     width: 100%;
     height: auto;
     padding: 40px 60px;
-    background: rebeccapurple;
 }
-.container img {
-    max-width: 100%;
-    /* display: block; */
+.container {
+    columns:3 auto;
+    gap:15px;
 }
-figure {
+.photo_box{
     position: relative;
     width: 100%;
-    height: 100%;
-    background: transparent;
-    margin: 0;
-    display: grid;
-    grid-template-rows: 1fr auto;
+}
+.photo_box img{
     margin-bottom: 10px;
-    break-inside: avoid;
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 1rem;
 }
-figure > img {
-    grid-row: 1 / -1;
-    grid-column: 1;
-}
+
 .right_section{
     position: absolute;
     top: 0;
@@ -756,7 +779,7 @@ figure > img {
     flex-direction: column;
     row-gap: 1.2rem;
     padding: 12px 15px;
-    opacity: 0;
+    /* opacity: 0; */
     transition: opacity 0.5s ease-out;
 }
 .right_section button{
@@ -774,16 +797,7 @@ figure > img {
 .right_section button:hover{
     transform: scale(1.1);
 }
-figcaption {
-    grid-row: 2;
-    grid-column: 1;
-    padding: .2em .5em;
-    justify-self: start;
-}
-.container {
-    column-count: 4;
-    column-gap: 10px;
-}
+
 .bottom_section{
     position: absolute;
     bottom: 0;
@@ -797,7 +811,7 @@ figcaption {
     justify-content: space-between;
     padding: 12px;
     z-index: 1;
-    opacity: 0;
+    /* opacity: 0; */
     transition: opacity 0.5s ease-out;
 }
 .bottom_section .image_title{
@@ -819,10 +833,6 @@ figcaption {
 }
 .bottom_section a:hover{
     transform: scale(1.1);
-}
-figure:hover .bottom_section,
-figure:hover .right_section{
-    opacity: 1;
 }
 
 
