@@ -585,7 +585,9 @@ nav.fixed{
 .footer_section{
     width: 100%;
     height: auto;
-    background: rgba(0, 0, 0, 0.88);
+    background: linear-gradient(to left, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.74)), url("./img/footer.jpg") no-repeat;
+    background-size: cover;
+    background-position: center center;
     display: flex;
     align-items: center;
     gap: 1.3rem;
