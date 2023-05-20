@@ -591,8 +591,14 @@ nav.fixed{
     display: flex;
     align-items: center;
     flex-direction: column;
-    gap: 1.3rem;
     padding: 40px 60px;
+}
+.footer_box{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    gap: 1.3rem;
 }
 .about_section{
     width: 20%;
