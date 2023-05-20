@@ -728,6 +728,10 @@ nav.fixed{
     display: block;
 }
 figure {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: transparent;
     margin: 0;
     display: grid;
     grid-template-rows: 1fr auto;
@@ -738,28 +742,42 @@ figure > img {
     grid-row: 1 / -1;
     grid-column: 1;
 }
-figcaption{
-    position: relative;
-    width: 100%;
-    height: 100%;
-    background: transparent;
-}
 figcaption .right_section{
     position: absolute;
     top: 0;
     right: 0;
     width: auto;
     height: 100%;
-    background: rgba(0, 0, 0, 0.2);
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.75));
+    display: flex;
+    align-items: flex-start;
+    justify-content: start;
+    flex-direction: column;
+    row-gap: 1.2rem;
+    padding: 12px 15px;
+    transition: 0.5s ease-out;
 }
-figure a {
+/* figure a {
     color: black;
     text-decoration: none;
+} */
+.image_action button{
+    outline: none;
+    border: none;
+    background: transparent;
+    font-size: 1.3rem;
+    color: #f14c05;
+    background: transparent;
+    cursor: pointer;
+    transition: transform 0.3s ease-out;
+}
+.image_action button:hover{
+    transform: scale(1.1);
 }
 figcaption {
     grid-row: 2;
     grid-column: 1;
-    background-color: rgba(255,255,255,.5);
+    /* background-color: rgba(255,255,255,.5); */
     padding: .2em .5em;
     justify-self: start;
 }
