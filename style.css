@@ -693,6 +693,12 @@ nav.fixed{
     font-size: 1.5rem;
     color: #dfdfdf;
 }
+.social_box h6{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #a8a8a8;
+    letter-spacing: 0.1rem;
+}
 
 
 
