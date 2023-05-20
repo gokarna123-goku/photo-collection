@@ -590,8 +590,26 @@ nav.fixed{
     background-position: center center;
     display: flex;
     align-items: center;
+    flex-direction: column;
     gap: 1.3rem;
     padding: 40px 60px;
+}
+.about_section{
+    width: 20%;
+    height: auto;
+    text-align: start;
+}
+.popular_tags{
+    width: 40%;
+    height: auto;
+}
+.quick_link{
+    width: 15%;
+    height: auto;
+}
+.social_link{
+    width: 15%;
+    height: auto;
 }
 .footer_title{
     font-size: 1.4rem;
